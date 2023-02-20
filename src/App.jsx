@@ -6,7 +6,7 @@ function App() {
         <img src={Logo} alt="Logo" />
 
         <h1 className="text-xl text-purple-500 text-center">
-          Increase Visibility Through Web Optimization
+          <Increasing Visibility Through Web Optimization
         </h1>
       </div>
     </div>
