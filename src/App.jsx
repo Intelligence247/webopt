@@ -1,12 +1,12 @@
 import Logo from "./assets/images/logo.png";
 function App() {
   return (
-    <div className="text-center  flex justify-center items-center  bg-gradient-to-r from-purple-100 to-white ">
+    <div className="text-center  flex justify-center items-center  bg-gradient-to-r from-purple-100 to-white">
       <div>
         <img src={Logo} alt="Logo" />
 
         <h1 className="text-xl text-purple-500 text-center">
-          <Increasing Visibility Through Web Optimization
+          Increae business Visibility Through Web Optimization
         </h1>
       </div>
     </div>
