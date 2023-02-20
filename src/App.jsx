@@ -11,4 +11,3 @@ function App() {
 export default App
 
 
-// https://www.bing.com/videos/search?q=how+to+make+a+pull+request+for+github&qpvt=how+to+make+a+pull+request+for+github&view=detail&mid=80D1698CC70EEB9A854D80D1698CC70EEB9A854D&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dhow%2Bto%2Bmake%2Ba%2Bpull%2Brequest%2Bfor%2Bgithub%26qpvt%3Dhow%2Bto%2Bmake%2Ba%2Bpull%2Brequest%2Bfor%2Bgithub%26FORM%3DVDRE
