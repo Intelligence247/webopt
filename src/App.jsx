@@ -8,6 +8,7 @@ function App() {
         <h1 className="text-xl text-purple-500 text-center">
           Increae business Visibility Through Web Optimization
         </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet cupiditate maxime id excepturi </p>
       </div>
     </div>
   );
