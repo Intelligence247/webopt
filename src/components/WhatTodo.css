@@ -2,7 +2,7 @@
     @apply p-[5rem]
 }
 .whatWrapper h1{
-    @apply text-[3rem] w-[25rem] text-center m-auto leading-[3.5rem] mb-8
+    @apply text-[3rem] w-[25rem] text-center m-auto leading-[3.5rem] mb-14
 }
 .ceoW img{
     @apply w-[12rem] rounded-xl h-[14rem]

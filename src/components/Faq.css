@@ -1,0 +1,27 @@
+.FaqW{
+    @apply pt-[3rem] pb-[5rem]
+}
+.FaqW h1{
+    @apply text-center text-[3rem] mb-4 
+}
+.ev  {
+    @apply  opacity-[0.7] text-center text-[1.5rem] mb-10
+}
+.ans{
+    @apply  h-0 overflow-hidden text-[#696767]
+}
+.activeQ{
+    @apply h-auto overflow-auto pb-8
+}
+.question{
+    @apply font-[600] cursor-pointer flex justify-between text-[1.5rem] 
+}
+.lessmore{
+    @apply border-primary border-[2px] h-6 w-6 rounded-full flex justify-center items-center text-primary
+}
+.QuesW{
+    @apply mt-[1rem] border-b-2
+}
+.allQ{
+    @apply flex flex-col gap-10
+}
