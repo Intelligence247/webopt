@@ -5,3 +5,13 @@
 *{
 @apply p-0 m-0 box-border 
 }
+
+.body{
+    @apply w-auto h-auto
+}
+*::-webkit-scrollbar{
+    @apply bg-purple-600 w-[8px]
+}
+*::-webkit-scrollbar-thumb{
+    @apply bg-[#1b1b1b] rounded-full
+}

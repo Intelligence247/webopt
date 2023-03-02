@@ -1,0 +1,13 @@
+.packages{
+    @apply w-full bg-[#1b1b1b] text-white
+}
+.level {
+    @apply w-auto
+}
+ .level .tab{
+    @apply no-underline px-2
+ }
+ 
+.active{
+    @apply border-b-[white] border-b-[2px] px-2
+}
