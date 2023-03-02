@@ -3,14 +3,15 @@ import React from 'react'
 const Ceo = (props) => {
   return (
     <div className='ceoW '>
-        <img src="/media/3.png" alt="" />
+        <img src={props.img}alt="" />
         <div className="stars">
             <div className="starsimg">
-            <img src="/media/3.png" alt="" />
-            <img src="/media/3.png" alt="" />
-            <img src="/media/3.png" alt="" />
-            <img src="/media/3.png" alt="" />
-            <img src="/media/3.png" alt="" />
+            <img src="/media/sta.png" alt="" />
+            <img src="/media/sta.png" alt="" />
+            <img src="/media/sta.png" alt="" />
+            <img src="/media/sta.png" alt="" />
+            <img src="/media/sta.png" alt="" />
+        
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, doloremque? Assumenda quisquam iste tempora architecto atque amet odit rerum quidem illum, veniam </p>
             <div className="bothname">

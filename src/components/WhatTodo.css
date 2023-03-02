@@ -8,7 +8,7 @@
     @apply w-[12rem] rounded-xl h-[14rem]
 }
 .starsimg img{
-    @apply w-4 rounded-full h-4
+    @apply w-6 h-6
 }
 .starsimg {
     @apply flex gap-2
