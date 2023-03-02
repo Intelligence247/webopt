@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Packages from "./components/Packages";
 import Steps from "./components/Steps";
+import WhatTodo from "./components/WhatTodo";
 function App() {
   return (
     <div className="body">
@@ -9,6 +10,7 @@ function App() {
       <Hero/>
       <Steps/>
       <Packages/>
+      <WhatTodo/>
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.whatWrapper{
+    @apply p-[5rem]
+}
+.whatWrapper h1{
+    @apply text-[3rem] w-[25rem] text-center m-auto leading-[3.5rem] mb-8
+}
+.ceoW img{
+    @apply w-[12rem] rounded-xl h-[14rem]
+}
+.starsimg img{
+    @apply w-4 rounded-full h-4
+}
+.starsimg {
+    @apply flex gap-2
+}
+.bothceo{
+    @apply flex gap-8
+}
+.stars{
+    @apply flex justify-center flex-col gap-4
+}
+.ceoW{
+    @apply flex items-center gap-6
+}
+.stars .name{
+    @apply flex gap-4
+}
+.stars .name p:nth-child(2){
+@apply opacity-[0.7]
+}
