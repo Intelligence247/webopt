@@ -1,4 +1,4 @@
-import Faq from "./components/Faq";
+import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
@@ -13,7 +13,7 @@ function App() {
       <Steps/>
       <Packages/>
       <WhatTodo/>
-      <Faq/>
+      <Faqs/>
       <Footer/>
     </div>
   );
