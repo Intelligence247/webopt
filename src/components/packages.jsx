@@ -6,7 +6,6 @@ import Standards from './Standards'
 const Packages = () => {
     const [activeTab, setactiveTab] = React.useState(0)
     const priceLevel = ['Basic', 'Standard', 'Premium']
-console.log(activeTab)
   return (
     <div className='packages'>
         <h1>Our Packages</h1>

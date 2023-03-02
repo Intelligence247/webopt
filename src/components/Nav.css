@@ -1,6 +1,9 @@
 .navWrapper{
     @apply flex bg-red-700 px-[8rem] gap-8 bg-gradient-to-r from-purple-100 to-white items-center
 }
+.navWrapper p, .navWrapper img{
+    @apply cursor-pointer
+}
 span{
     @apply flex-grow-[1]
 }

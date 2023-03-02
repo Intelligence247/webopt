@@ -1,12 +1,12 @@
-.Hero{
+.wraperhero{
     @apply bg-[#1b1b1b] w-full h-[30rem] py-[5rem] text-white 
 }
-.Hero h1,.Hero p{
+.wraperhero h1,.wraperhero p{
     @apply  text-center text-5xl w-[40rem] m-auto font-[700] leading-[3.5rem]
 }
-.Hero p{
+.wraperhero p{
    @apply text-[1.2rem] font-[300] w-[45rem] mt-8 leading-8
 }
-.Hero button{
+.wraperhero button{
     @apply w-max m-auto block bg-primary opacity-[0.8] py-[0.5rem] px-[2rem] rounded-xl mt-8 text-[1.4rem]
 }
