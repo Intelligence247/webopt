@@ -1,0 +1,21 @@
+.navWrapper{
+    @apply flex bg-red-700 px-[8rem] gap-8 bg-gradient-to-r from-purple-100 to-white items-center
+}
+span{
+    @apply flex-grow-[1]
+}
+.navWrapper img{
+    @apply w-[10rem] 
+}
+.login,.signup{
+    @apply border-primary border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
+}
+.login{
+    @apply hover:bg-primary hover:text-white
+}
+.signup{
+    @apply bg-primary text-white hover:bg-[#9978dc]
+}
+.navWrapper p:not(.signup, .login){
+    @apply hover:text-primary
+}
