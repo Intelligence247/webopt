@@ -3,15 +3,16 @@
 @tailwind utilities;
 
 *{
-@apply p-0 m-0 box-border 
+
+@apply p-0 m-0 box-border font-[raleway]
 }
 
 .body{
     @apply w-auto h-auto
 }
-*::-webkit-scrollbar{
+::-webkit-scrollbar{
     @apply bg-purple-600 w-[8px]
 }
-*::-webkit-scrollbar-thumb{
-    @apply bg-[#1b1b1b] rounded-full
+::-webkit-scrollbar-thumb{
+    @apply bg-[#1C1B1B] rounded-full
 }

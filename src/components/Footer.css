@@ -1,0 +1,25 @@
+.footerWrapper{
+    @apply bg-[#1C1B1B] text-white w-full px-[5rem]
+ py-[3rem]
+}
+.footerTexts{
+    @apply flex justify-between
+}
+hr{
+    @apply my-8
+}
+.copy{
+    @apply flex justify-between items-center
+}
+.copy img{
+    @apply w-[10rem]
+}
+.eachF{
+    @apply flex flex-col gap-4
+}
+.eachF p, .eachF h1{
+    @apply hover:text-primary cursor-pointer
+}
+.eachF h1{
+    @apply text-[1.5rem] font-[600]
+}
