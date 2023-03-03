@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import FooterC from './FooterC'
+
 const footerText = [
 {
 h1:'Overview',
