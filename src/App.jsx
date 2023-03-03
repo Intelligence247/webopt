@@ -8,14 +8,18 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="body">
+    <div id="body">
+      <section className="asect">
       <Nav/>
+      </section>
+      <main>
       <Hero/>
       <Steps/>
       <Packages/>
       <WhatTodo/>
       <Faqs/>
       <Footer/>
+      </main>
     </div>
   );
 }
