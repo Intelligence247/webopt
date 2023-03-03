@@ -1,25 +1,36 @@
-/* bg-gradient-to-r from-purple-100 to-white  */
 .navWrapper{
-    @apply flex px-[8rem] gap-8 items-center
+    @apply flex lg:px-[7rem] px-2 gap-8 items-center 
 }
 .navWrapper p, .navWrapper img{
     @apply cursor-pointer
 }
 span{
-    @apply flex-grow-[1]
+    @apply w-[15rem]
 }
 .navWrapper img{
     @apply w-[10rem] 
 }
 .login,.signup{
-    @apply border-primary border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
+    @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
 }
 .login{
-    @apply hover:bg-primary hover:text-white
+    @apply  hover:border-primary
 }
 .signup{
     @apply bg-primary text-white hover:bg-[#9978dc]
 }
 .navWrapper p:not(.signup, .login){
     @apply hover:text-primary
+}
+
+.navWrapper p{
+    @apply lg:block
+}
+.sign{
+    @apply flex gap-8
+}
+@media (max-width:640px) {
+.sign{
+    @apply fixed right-0 hidden
+}
 }

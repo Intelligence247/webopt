@@ -7,14 +7,18 @@ import Steps from "./components/Steps";
 import WhatTodo from "./components/WhatTodo";
 function App() {
   return (
-    <div className="body">
+    <div id="body">
+      <section className="asect">
       <Nav/>
+      </section>
+      <main>
       <Hero/>
       <Steps/>
       <Packages/>
       <WhatTodo/>
       <Faqs/>
       <Footer/>
+      </main>
     </div>
   );
 }
