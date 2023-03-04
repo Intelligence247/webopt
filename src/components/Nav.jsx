@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import "./Nav.css"
 const Nav = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(true)
   return (
     <div className='navWrapper'>
     <img src="/media/logo.png" alt="" />
