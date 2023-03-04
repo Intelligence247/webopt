@@ -14,7 +14,7 @@ const Nav = () => {
 <p className='login'>Login</p>
 <p className='signup'>Sign Up</p>
 </div>
-<img src= { `${nav?"/media/closew.png":"/media/showb.png"} `} className='burg' alt="" onClick={()=>setNav(!nav)} />
+<img src= { `${nav?"/media/showb.png":"/media/closew.png"} `} className='burg' alt="" onClick={()=>setNav(!nav)} />
     </div>
   )
 }
