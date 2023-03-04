@@ -42,16 +42,16 @@ span{
         @apply hidden
     }
 .sign{
-    @apply fixed h-screen right-full w-[10rem] bg-black flex gap-6 flex-col top-0 pl-8 pt-12 z-10
+    @apply fixed h-screen left-[50vw] w-[50vw] bg-black flex gap-6 flex-col top-0 pl-8 pt-12 z-[1] transition-all ease-linear duration-[.31s]
 }
 .login,.signup{
     @apply border-0 bg-black hover:bg-black p-0 hover:text-primary
 }
 .actnav{
-    @apply right-0
+    @apply left-full
 }
 .navWrapper img:last-child{
-    @apply right-4 h-8 w-[2.5rem] absolute z-10 block
+    @apply right-4 h-8 w-[2.5rem] absolute z-[2] block transition-all ease-linear duration-[.31s]
 } 
 
 }
