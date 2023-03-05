@@ -31,7 +31,7 @@ main{
     @apply lg:bg-purple-600 lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
-    @apply lg:bg-[#1C1B1B] lg:rounded-full lg:border-purple-600 lg:border-2
+    @apply lg:bg-yellow-700 lg:rounded-full
 }
 .asect, main{
     @apply w-full
