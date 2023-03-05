@@ -1,5 +1,5 @@
 .navWrapper{
-    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8
+    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 
 }
 .navWrapper p, .navWrapper img{
     @apply cursor-pointer
@@ -8,7 +8,7 @@ span{
     @apply flex-grow-[1]
 }
 .navWrapper img{
-    @apply w-[10rem]
+    @apply w-[8rem] pt-2
 }
 .login,.signup{
     @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
@@ -28,6 +28,9 @@ span{
 }
 .sign{
     @apply flex gap-8 items-baseline w-full h-full lg:flex-row flex-col
+}
+.sign2{
+    @apply lg:hidden
 }
 .navWrapper img:last-child{
     @apply lg:hidden 
@@ -53,5 +56,11 @@ span{
 .navWrapper img:last-child{
     @apply right-4 h-8 w-[2.5rem] absolute z-[2] block transition-all ease-linear duration-[.31s]
 } 
+.sign2{
+    @apply  block fixed h-screen right-[50vw] w-[50vw] bg-black top-0  opacity-[0.2]
+}
+.actnav2{
+    @apply hidden
+}
 
 }

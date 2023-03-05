@@ -14,6 +14,7 @@ const Nav = () => {
 <p className='login'>Login</p>
 <p className='signup'>Sign Up</p>
 </div>
+<div className={`sign2 ${nav && 'actnav2'}`}></div>
 <img src= { `${nav?"/media/showb.png":"/media/closew.png"} `} className='burg' alt="" onClick={()=>setNav(!nav)} />
     </div>
   )

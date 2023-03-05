@@ -23,4 +23,3 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Addtional Info
 - Increase your business visibility through better web optimization
-
