@@ -1,0 +1,57 @@
+.navWrapper{
+    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8
+}
+.navWrapper p, .navWrapper img{
+    @apply cursor-pointer
+}
+span{
+    @apply flex-grow-[1]
+}
+.navWrapper img{
+    @apply w-[10rem]
+}
+.login,.signup{
+    @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
+}
+.login{
+    @apply  hover:border-primary
+}
+.signup{
+    @apply bg-primary text-white hover:bg-[#9978dc] 
+}
+.navWrapper p:not(.signup, .login){
+    @apply hover:text-primary
+}
+
+.navWrapper p{
+    @apply lg:block
+}
+.sign{
+    @apply flex gap-8 items-baseline w-full h-full lg:flex-row flex-col
+}
+.navWrapper img:last-child{
+    @apply lg:hidden 
+}
+@media (max-width:640px) {
+
+   
+    .sign p{
+        @apply text-white 
+    }
+    span{
+        @apply hidden
+    }
+.sign{
+    @apply fixed h-screen left-[50vw] w-[50vw] bg-black flex gap-6 flex-col top-0 pl-8 pt-12 z-[1] transition-all ease-linear duration-[.31s]
+}
+.login,.signup{
+    @apply border-0 bg-black hover:bg-black p-0 hover:text-primary
+}
+.actnav{
+    @apply left-full
+}
+.navWrapper img:last-child{
+    @apply right-4 h-8 w-[2.5rem] absolute z-[2] block transition-all ease-linear duration-[.31s]
+} 
+
+}

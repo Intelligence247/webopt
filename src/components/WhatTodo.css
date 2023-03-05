@@ -1,0 +1,30 @@
+.whatWrapper{
+    @apply py-[5rem] lg:px-[5rem] px-[2rem] w-full
+}
+.whatWrapper h1{
+    @apply lg:text-[3rem] text-[2.5rem] lg:w-[25rem] w-full text-center m-auto lg:leading-[3.5rem] leading-9 mb-14
+}
+.ceoW img{
+    @apply w-[12rem] rounded-xl h-[14rem]
+}
+.starsimg img{
+    @apply w-6 h-6
+}
+.starsimg {
+    @apply flex gap-2
+}
+.bothceo{
+    @apply flex lg:gap-8 gap-10 lg:flex-row flex-col
+}
+.stars{
+    @apply flex justify-center flex-col gap-4
+}
+.ceoW{
+    @apply flex items-center gap-6 flex-col lg:flex-row
+}
+.stars .name{
+    @apply flex gap-4
+}
+.stars .name p:nth-child(2){
+@apply opacity-[0.7]
+}

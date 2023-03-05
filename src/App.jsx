@@ -1,13 +1,29 @@
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Packages from "./components/Packages";
+import Steps from "./components/Steps";
+import WhatTodo from "./components/WhatTodo";
+import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="text-center  flex justify-center items-center  bg-gradient-to-r from-purple-500 to-blue-500 ">
-     
-     <h1 className="text-6xl text-gray-200 my-12 p-12">WEB-OPT</h1>
-      
+    <div id="body">
+      <section className="asect">
+      <Nav/>
+      </section>
+      <main>
+      <Hero/>
+      <Steps/>
+      <Packages/>
+      <WhatTodo/>
+      <Faqs/>
+      <Footer/>
+      </main>
     </div>
-  )
+  );
 }
-
 export default App
+
 
 

@@ -1,0 +1,28 @@
+.footerWrapper{
+    @apply bg-[#1C1B1B] text-white lg:w-full px-[1rem] lg:px-[5rem]
+ py-[3rem] flex flex-col gap-8
+}
+.footerTexts{
+    @apply flex justify-between lg:flex-row  flex-col lg:gap-0 gap-8 pl-14
+}
+hr{
+    @apply w-full
+}
+.copy{
+        @apply flex justify-between lg:items-center lg:flex-row flex-col gap-2 w-full lg:gap-0
+}
+.copy img{
+    @apply w-[10rem]
+}
+.copy p{
+ @apply lg:text-base text-sm
+}
+.eachF{
+    @apply flex flex-col gap-4
+}
+.eachF p, .eachF h1{
+    @apply hover:text-primary cursor-pointer
+}
+.eachF h1{
+    @apply text-[1.5rem] font-[600] hover:text-white
+}
