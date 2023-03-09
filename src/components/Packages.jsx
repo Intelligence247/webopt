@@ -7,7 +7,7 @@ const Packages = () => {
     const [activeTab, setactiveTab] = React.useState(0)
     const priceLevel = ['Basic', 'Standard', 'Premium']
   return (
-    <div className='packages'>
+    <div className='packages' id='packages'>
         <h1>Our Packages</h1>
         <div className="level flex gap-8">
             {

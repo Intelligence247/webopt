@@ -7,6 +7,7 @@
 span{
     @apply flex-grow-[1]
 }
+
 .navWrapper img{
     @apply w-[8rem] pt-2
 }
