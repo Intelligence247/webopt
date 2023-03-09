@@ -5,8 +5,8 @@ import SignandLog from '../components/SignandLog'
 const Loginpage = () => {
   return (
     <div className='h-screen lg:overflow-hidden overflow-y-scroll'>
-        <Nav
-        package="./#packages"/>
+        {/* <Nav
+        package="./#packages"/> */}
         <SignandLog/>
         </div>
   )

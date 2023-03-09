@@ -11,25 +11,28 @@ const SignandLog = (props) => {
 
           <div className="widthgoogle">
             <img src="/media/sta.png" alt="" />
-            <p>Login with Google</p>
+            <p className='text-xl'>Login with Google</p>
           </div>
           <label htmlFor="name">
             <p>Name</p>
-            <input type="text" />
+            <input type="text"placeholder='Enter your name' />
             <p className="valid"></p>
           </label>
           <label htmlFor="email">
-            <p>Email</p>
-            <input type="text" />
+            <p>Email address</p>
+            <input type="text"placeholder='Enter your email address' />
             <p className="valid"></p>
           </label>
 
           <label htmlFor="passsword">
             <p>Passsword</p>
-            <input type="number" />
+            <input type="number" placeholder='Enter your password' />
             <p className="valid"></p>
           </label>
-
+<div className="terms">
+  <input type="checkbox" name="" id="checkbox" />
+  <p>I agree to the <strong>Terms</strong> and <strong>Conditons</strong></p>
+</div>
         </div>
     </div>
   )
