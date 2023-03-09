@@ -14,8 +14,7 @@
 @tailwind utilities;
 
 *{
-
-@apply p-0 m-0 box-border font-[raleway] text-base 
+@apply p-0 m-0 box-border font-[raleway] text-base scroll-smooth
 }
 
 #body{
