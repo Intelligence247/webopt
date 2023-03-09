@@ -1,0 +1,23 @@
+.signandLogW{
+   grid-template-columns: 1fr 1fr;
+   @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid px-[10rem] h-screen overflow-hidden
+}
+.userinfo {
+    @apply flex flex-col gap-4
+}
+.userinfo h1{
+    @apply text-[2rem] flex justify-center items-center
+}
+.userinfo h1 img{
+    @apply w-8
+}
+.widthgoogle{
+    @apply flex gap-4 border-[#b09d9d] border-[1px] rounded-lg
+}
+
+input{
+    @apply w-full
+}
+
+
+/* #d3d2d2 */

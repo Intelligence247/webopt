@@ -1,11 +1,12 @@
 import React from 'react'
 import Nav from '../components/Nav'
+import SignandLog from '../components/SignandLog'
 
 const Signuppage = () => {
   return (
-    <div>
+    <div className='h-screen overflow-hidden'>
         <Nav/>
-        <p>Signuppage is here</p>
+        <SignandLog/>
         </div>
   )
 }
