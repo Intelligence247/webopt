@@ -8,7 +8,7 @@ const SignandLog = (props) => {
 
         <div className="userinfo">
           <h1>Welcome back <img src="/media/bye.png" alt="" /></h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse quisquam accusamus necessitatibus molestias nostrum, fugit dolor tenetur neque delectus ratione tempore voluptatum. Eius numquam, expedita perspiciatis nemo aliquam adipisci.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse quisquam accusamus necessitatibus molestias nostrum, fugit dolor tenetur neque delectus ratione tempore voluptatum. Eius numquam, e.</p>
 
           <div className="widthgoogle">
             <img src="/media/sta.png" alt="" />
@@ -17,18 +17,18 @@ const SignandLog = (props) => {
           <label htmlFor="name">
             <p>Name</p>
             <input type="text"placeholder='Enter your name' />
-            <p className="valid"></p>
+            <p className="valid">Hello ooo</p>
           </label>
           <label htmlFor="email">
             <p>Email address</p>
             <input type="text"placeholder='Enter your email address' />
-            <p className="valid"></p>
+            <p className="valid">Hello ooo</p>
           </label>
 
           <label htmlFor="passsword">
             <p>Passsword</p>
             <input type="number" placeholder='Enter your password' />
-            <p className="valid"></p>
+            <p className="valid">Hello ooo</p>
           </label>
 <div className="terms">
   <input type="checkbox" name="" id="checkbox" />
@@ -37,7 +37,7 @@ const SignandLog = (props) => {
 
 <button>SignUp</button>
 
-<footer>Already have an account <Link to={"/Loginpage"}></Link> </footer>
+<footer>Already have an account? <Link to={"/Loginpage"}>Login</Link> </footer>
         </div>
     </div>
   )

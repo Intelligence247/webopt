@@ -4,9 +4,14 @@ import SignandLog from '../components/SignandLog'
 
 const Signuppage = () => {
   return (
-    <div className='h-screen overflow-hidden'>
-        <Nav/>
+    <div className='LoginPageW'>
+      <aside>
+         <Nav
+        package="./#packages"/> 
+        </aside>
+        <div className='mainlog'>
         <SignandLog/>
+        </div>
         </div>
   )
 }
