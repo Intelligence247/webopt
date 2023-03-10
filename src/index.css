@@ -18,20 +18,19 @@
 }
 
 #body{
-    display: grid;
     grid-template-rows: 4rem 1fr;
-    overflow:hidden;
-    height: 100vh;
+    @apply overflow-hidden grid h-screen
 }
 main{
     @apply overflow-y-auto overflow-x-hidden
+}
+
+.asect, main{
+    @apply w-full
 }
 ::-webkit-scrollbar{
     @apply lg:bg-purple-600 lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
     @apply lg:bg-yellow-700 lg:rounded-full
-}
-.asect, main{
-    @apply w-full
 }

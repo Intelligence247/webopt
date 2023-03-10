@@ -1,9 +1,9 @@
 .signandLogW{
    grid-template-columns: 1fr 1fr;
-   @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid px-[10rem] h-screen overflow-hidden py-20
+   @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid px-[10rem] h-auto py-12 place-items-center
 }
 .signandLogW>img{
-    @apply h-full
+    @apply h-[90vh]
 }
 .userinfo {
     @apply flex flex-col gap-4
@@ -17,9 +17,18 @@
 .widthgoogle{
     @apply flex gap-4 border-[#b09d9d] border-[1px] rounded-lg h-10 items-center justify-center 
 }
+label p:first-child{
+    @apply mb-2
+}
 
+.valid{
+    @apply mt-2 hidden
+}
 input{
-    @apply w-full rounded-lg h-10
+    @apply w-full rounded-lg h-10 pl-2 focus:pl-3 focus:text-black focus:outline-[#b09d9d]
+}
+input::placeholder{
+    @apply pl-3
 }
 .terms{
     @apply flex items-center gap-4 
@@ -28,5 +37,10 @@ input{
 input#checkbox{
     @apply w-4 h-4 border-[red] border-[2px]
 }
-
+.signandLogW button{
+    @apply bg-[#8e55ff] w-full h-10 rounded-lg
+}
+.signandLogW a{
+    @apply text-[#a171ff] 
+}
 /* #d3d2d2 */
