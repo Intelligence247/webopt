@@ -7,12 +7,12 @@ const SignandLog = (props) => {
         <img src="/media/unsplash.png" alt="" />
 
         <div className="userinfo">
-          <h1>Welcome back <img src="/media/bye.png" alt="" /></h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse quisquam accusamus necessitatibus molestias nostrum, fugit dolor tenetur neque delectus ratione tempore voluptatum. Eius numquam, e.</p>
+          <h1>{props.title} <img src="/media/bye.png" alt="" /></h1>
+          <p>{props.desc}</p>
 
           <div className="widthgoogle">
             <img src="/media/sta.png" alt="" />
-            <p className='text-xl'>Login with Google</p>
+            <p className='text-xl'>{props.withoogle}</p>
           </div>
           <label htmlFor="name">
             <p>Name</p>
@@ -32,13 +32,14 @@ const SignandLog = (props) => {
           </label>
 <div className="terms">
   <input type="checkbox" name="" id="checkbox" />
-  <p>I agree to the <strong>Terms</strong> and <strong>Conditons</strong></p>
+  <p>{props.terms}</p>
 </div>
 
 <button>SignUp</button>
 
-<footer>Already have an account? <Link to={"/Loginpage"}>Login</Link> </footer>
+<footer>{props.footer}</footer>
         </div>
+        
     </div>
   )
 }
