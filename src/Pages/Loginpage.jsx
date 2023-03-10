@@ -6,13 +6,13 @@ import "./Loginpage.css"
 const Loginpage = () => {
   return (
     <div className='LoginPageW'>
-      <section>
+      <aside>
          <Nav
         package="./#packages"/> 
-        </section>
-        <main>
+        </aside>
+        <div className='mainlog'>
         <SignandLog/>
-        </main>
+        </div>
         </div>
   )
 }
