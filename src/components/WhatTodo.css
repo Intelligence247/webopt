@@ -1,8 +1,8 @@
 .whatWrapper{
-    @apply p-[5rem]
+    @apply py-[5rem] lg:px-[5rem] px-[2rem] w-full
 }
 .whatWrapper h1{
-    @apply text-[3rem] w-[25rem] text-center m-auto leading-[3.5rem] mb-14
+    @apply lg:text-[3rem] text-[2.5rem] lg:w-[25rem] w-full text-center m-auto lg:leading-[3.5rem] leading-9 mb-14
 }
 .ceoW img{
     @apply w-[12rem] rounded-xl h-[14rem]
@@ -14,13 +14,13 @@
     @apply flex gap-2
 }
 .bothceo{
-    @apply flex gap-8
+    @apply flex lg:gap-8 gap-10 lg:flex-row flex-col
 }
 .stars{
     @apply flex justify-center flex-col gap-4
 }
 .ceoW{
-    @apply flex items-center gap-6
+    @apply flex items-center gap-6 flex-col lg:flex-row
 }
 .stars .name{
     @apply flex gap-4

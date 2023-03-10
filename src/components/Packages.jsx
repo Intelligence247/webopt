@@ -8,6 +8,7 @@ const Packages = () => {
   
   const priceLevel = ["Basic", "Standard", "Premium"];
   return (
+<<<<<<< HEAD
     <div className="packages">
       <h1>Our Packages</h1>
       <div className="level flex gap-8">
@@ -21,6 +22,23 @@ const Packages = () => {
           </p>
         ))}
       </div>
+=======
+    <div className='packages' id='packages'>
+        <h1>Our Packages</h1>
+        <div className="level flex gap-8">
+            {
+    priceLevel.map((priceL,i)=>(
+    <p 
+    key={i} 
+    className={`${activeTab === i ? 'active': 'tab'}`}
+    onClick={()=>setactiveTab(i)}
+    >
+    {priceL}
+    </p>
+))
+            }
+        </div>
+>>>>>>> 0267060961811b2c406514cf72cc87b2ef3ce6e9
 
       <section>
         {activeTab === 0 ? <Basic /> : ""}

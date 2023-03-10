@@ -1,18 +1,37 @@
 @tailwind base;
 @tailwind components;
+@media (max-width:640px){
+*{
+    @apply text-sm
+}
+
+#body{
+    overflow-x: hidden;
+}
+
+
+}
 @tailwind utilities;
 
 *{
-
-@apply p-0 m-0 box-border font-[raleway]
+@apply p-0 m-0 box-border font-[raleway] text-base scroll-smooth
 }
 
-.body{
-    @apply w-auto h-auto
+#body{
+    display: grid;
+    grid-template-rows: 4rem 1fr;
+    overflow:hidden;
+    height: 100vh;
+}
+main{
+    @apply overflow-y-auto overflow-x-hidden
 }
 ::-webkit-scrollbar{
-    @apply bg-purple-600 w-[8px]
+    @apply lg:bg-purple-600 lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
-    @apply bg-[#1C1B1B] rounded-full
+    @apply lg:bg-yellow-700 lg:rounded-full
+}
+.asect, main{
+    @apply w-full
 }

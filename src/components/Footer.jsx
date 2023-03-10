@@ -44,7 +44,7 @@ p3:'Pricing',
 const date = new Date()
 const Footer = () => {
   return (
-    <div className='footerWrapper'>
+    <div className='footerWrapper' id='about'>
         <div className="footerTexts">
             {
                 footerText.map((text,i)=>(

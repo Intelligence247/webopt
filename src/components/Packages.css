@@ -1,8 +1,8 @@
 .packages{
-    @apply w-full bg-[#1b1b1b] text-white py-[5rem]
+    @apply lg:w-full px-8 bg-[#1b1b1b] text-white py-[5rem]
 }
 .packages h1{
-    @apply text-[3rem] text-center mb-4
+    @apply lg:text-[3rem] text-[2rem] text-center lg:mb-4 mb-8
 }
 .level {
     @apply w-max m-auto
@@ -17,12 +17,15 @@
 .first{
     @apply flex items-center justify-center gap-10 my-6
 }
+.first p:last-child{
+    @apply lg:text-base text-sm
+}
 .dot{
-    @apply w-4 h-4 bg-[#8e55ff] rounded-full block
+    @apply lg:w-4 lg:h-4 w-4 h-2  bg-[#8e55ff] rounded-full block
 }
 
 .learn {
-    @apply w-max m-auto opacity-[0.8] mt-10
+    @apply lg:w-max m-auto opacity-[0.8] mt-10 text-sm lg:text-base
 }
 .learn a {
     @apply text-[#8e55ff] 

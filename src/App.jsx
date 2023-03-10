@@ -1,23 +1,31 @@
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Packages from "./components/Packages";
-import Steps from "./components/Steps";
-import WhatTodo from "./components/WhatTodo";
-import Faqs from "./components/Faqs";
-import Footer from "./components/Footer";
-
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Homepage from "./Pages/Homepage";
+import Signuppage from "./Pages/Signuppage";
+import Loginpage from "./Pages/Loginpage";
+import Notfound from "./Pages/Notfound";
 function App() {
+  const routes = createBrowserRouter([
+    {
+      path:"/",
+      element:<Homepage/>,
+    },
+    {
+      path:"/signuppage",
+      element:<Signuppage/>
+    },
+    {
+      path:"/loginpage",
+      element:<Loginpage/>,
+    },
+    {
+      path:"*",
+      element:<Notfound/>
+    },
+   
+  ])
   return (
-    <div className="body">
-      <Nav/>
-      <Hero/>
-      <Steps/>
-      <Packages/>
-      <WhatTodo/>
-      <Faqs/>
-      <Footer/>
-    </div>
-  );
+   <RouterProvider router={routes}/>
+  )
 }
 
 export default App;
