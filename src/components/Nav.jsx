@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import { Link } from 'react-router-dom'
 import "./Nav.css"
-const Nav = () => {
+const Nav = (props) => {
   const [nav, setNav] = useState(true)
   return (
     <div className='navWrapper'>
@@ -9,7 +9,7 @@ const Nav = () => {
     <div className={`sign ${nav && 'actnav'}`}>
    
     <Link to={"/"}><p>Home</p></Link>
-   <a href="#packages"><p>Packages</p></a>
+   <a href={props.package}><p>Packages</p></a>
    <a href="#about"><p>About</p></a> 
     <p>Blog</p> 
     <span></span>

@@ -11,7 +11,8 @@ const Homepage = () => {
     return (
         <div id="body">
           <section className="asect">
-          <Nav/>
+          <Nav
+        package="#packages"/>
           </section>
           <main>
           <Hero/>
