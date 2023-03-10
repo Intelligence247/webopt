@@ -18,10 +18,8 @@
 }
 
 #body{
-    display: grid;
     grid-template-rows: 4rem 1fr;
-    overflow:hidden;
-    height: 100vh;
+    @apply overflow-hidden grid h-screen
 }
 main{
     @apply overflow-y-auto overflow-x-hidden

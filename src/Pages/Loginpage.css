@@ -1,0 +1,7 @@
+.LoginPageW{
+    grid-template-columns: 4rem 1fr;
+    @apply h-screen overflow-hidden 
+}
+.LoginPageW main{
+    @apply overflow-y-auto
+}

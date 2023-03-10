@@ -1,6 +1,6 @@
 .signandLogW{
    grid-template-columns: 1fr 1fr;
-   @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid px-[10rem] h-screen overflow-hidden py-20
+   @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid px-[10rem] h-auto py-20
 }
 .signandLogW>img{
     @apply h-full

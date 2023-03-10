@@ -1,13 +1,18 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import SignandLog from '../components/SignandLog'
+import "./Loginpage.css"
 
 const Loginpage = () => {
   return (
-    <div className='h-screen lg:overflow-hidden overflow-y-scroll'>
-        {/* <Nav
-        package="./#packages"/> */}
+    <div className='LoginPageW'>
+      <section>
+         <Nav
+        package="./#packages"/> 
+        </section>
+        <main>
         <SignandLog/>
+        </main>
         </div>
   )
 }

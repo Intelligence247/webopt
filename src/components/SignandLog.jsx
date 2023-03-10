@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./SignandLog.css"
 const SignandLog = (props) => {
   return (
@@ -33,6 +34,10 @@ const SignandLog = (props) => {
   <input type="checkbox" name="" id="checkbox" />
   <p>I agree to the <strong>Terms</strong> and <strong>Conditons</strong></p>
 </div>
+
+<button>SignUp</button>
+
+<footer>Already have an account <Link to={"/Loginpage"}></Link> </footer>
         </div>
     </div>
   )
