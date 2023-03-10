@@ -1,10 +1,10 @@
 import React from 'react';
 import Step1 from './steps/Step1';
-import Step2 from './Steps/Step2';
-import Step3
-
-from './Steps/Step3';
+import Step2 from './steps/Step2';
+import Step3 from './steps/Step3';
 import "./Step.css"
+
+
 const Steps = () => {
   return (
     <div className='Stepsw'>
