@@ -30,8 +30,9 @@ const Faqs = () => {
             <p className='ev'>Everything you need to know about setting up your shop on Web-opt</p>
                 <div className="allQ">
                   {
-                    QandA.map((q)=>(
+                    QandA.map((q, i)=>(
                       <Questions
+                      key={i}
                       ques={q.ques}
                       ans={q.ans}/>
 

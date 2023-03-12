@@ -1,0 +1,11 @@
+.LoginPageW{
+    grid-template-rows: 4rem 1fr;
+    @apply h-screen overflow-hidden grid
+}
+
+ .LoginPageW .mainlog{
+    @apply overflow-y-auto 
+} 
+.log label:first-of-type{
+@apply hidden
+}

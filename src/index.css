@@ -14,25 +14,23 @@
 @tailwind utilities;
 
 *{
-
-@apply p-0 m-0 box-border font-[raleway] text-base 
+@apply p-0 m-0 box-border font-[raleway] text-base scroll-smooth
 }
 
 #body{
-    display: grid;
     grid-template-rows: 4rem 1fr;
-    overflow:hidden;
-    height: 100vh;
+    @apply overflow-hidden grid h-screen
 }
 main{
     @apply overflow-y-auto overflow-x-hidden
+}
+
+.asect, main{
+    @apply w-full
 }
 ::-webkit-scrollbar{
     @apply lg:bg-purple-600 lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
-    @apply lg:bg-[#1C1B1B] lg:rounded-full lg:border-purple-600 lg:border-2
-}
-.asect, main{
-    @apply w-full
+    @apply lg:bg-yellow-700 lg:rounded-full
 }
