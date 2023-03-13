@@ -17,7 +17,7 @@ const Nav = (props) => {
 <Link to={"/signuppage"}><p className='signup'>Sign Up</p></Link>
 </div>
 <div className={`sign2 ${nav && 'actnav2'}`}></div>
-<img src= { `${nav?"/media/showb.png":"/media/closew.png"} `} className='burg' alt="" onClick={()=>setNav(!nav)} />
+<img src= {`${nav?"/media/showb.png":"/media/closew.png"} `} className='burg' alt="" onClick={()=>setNav(!nav)} />
     </div>
   )
 }

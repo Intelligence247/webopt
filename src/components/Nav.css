@@ -55,7 +55,7 @@ span{
     @apply left-full
 }
 .navWrapper img:last-child{
-    @apply right-4 h-8 w-[2.5rem] absolute z-[2] block transition-all ease-linear duration-[.31s]
+    @apply right-4 h-10 w-10 absolute z-[2] block transition-all ease-linear duration-[.31s]
 } 
 .sign2{
     @apply  block fixed h-screen right-[0vw] w-[100vw] bg-black top-0  opacity-[0.2]
