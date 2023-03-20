@@ -5,11 +5,6 @@
     @apply text-sm
 }
 
-#body{
-    overflow-x: hidden;
-}
-
-
 }
 @tailwind utilities;
 
@@ -19,18 +14,18 @@
 
 #body{
     grid-template-rows: 4rem 1fr;
-    @apply overflow-hidden grid h-screen
+    @apply grid h-screen w-screen
 }
 main{
-    @apply overflow-y-auto overflow-x-hidden
+    @apply overflow-y-auto w-screen
 }
 
 .asect, main{
-    @apply w-full
+    @apply w-screen
 }
 ::-webkit-scrollbar{
-    @apply lg:bg-purple-600 lg:w-[8px]
+    @apply lg:bg-purple-300 lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
-    @apply lg:bg-yellow-700 lg:rounded-full
+    @apply lg:bg-purple-700 lg:rounded-full 
 }
