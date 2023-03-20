@@ -3,7 +3,7 @@
  py-[3rem] flex flex-col gap-8
 }
 .footerTexts{
-    @apply flex justify-between lg:flex-row  flex-col lg:gap-0 gap-8 pl-14
+    @apply flex justify-between lg:flex-row  flex-col lg:gap-0 space-y-8 pl-14
 }
 hr{
     @apply w-full
@@ -18,7 +18,7 @@ hr{
  @apply lg:text-base text-sm
 }
 .eachF{
-    @apply flex flex-col gap-4
+    @apply flex flex-col space-y-4
 }
 .eachF p, .eachF h1{
     @apply hover:text-primary cursor-pointer
