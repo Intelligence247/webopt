@@ -28,8 +28,9 @@ const stepObj =[
         <h1>Boost Your Online Visibility in just a few steps</h1>
 
         {
-          stepObj.map((step)=>(
+          stepObj.map((step,i)=>(
             <Step1
+            key={i}
             title={step.title}
             desc={step.desc}
             />
