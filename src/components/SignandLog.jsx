@@ -11,8 +11,8 @@ const SignandLog = (props) => {
           <p>{props.desc}</p>
 
           <div className="widthgoogle">
-            <img src="/media/google-logo.png" alt="" className='w-6 h-6' />
-            <p className='text-xl'>{props.withoogle}</p>
+            <img src="/media/google-logo.png" alt="" className='lg:w-6 lg:h-6 w-6 h-6' />
+            <p className=''>{props.withoogle}</p>
           </div>
           <label htmlFor="name">
             <p>{props.lb1}</p>
