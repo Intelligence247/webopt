@@ -11,23 +11,23 @@ const SignandLog = (props) => {
           <p>{props.desc}</p>
 
           <div className="widthgoogle">
-            <img src="/media/sta.png" alt="" />
+            <img src="/media/google-logo.png" alt="" className='w-6 h-6' />
             <p className='text-xl'>{props.withoogle}</p>
           </div>
           <label htmlFor="name">
-            <p>Name</p>
-            <input type="text"placeholder='Enter your name' />
+            <p>{props.lb1}</p>
+            <input type="text"placeholder={props.plc1} />
             <p className="valid">Hello ooo</p>
           </label>
           <label htmlFor="email">
-            <p>Email address</p>
-            <input type="text"placeholder='Enter your email address' />
+            <p>{props.lb2}</p>
+            <input type="text"placeholder={props.plc2} />
             <p className="valid">Hello ooo</p>
           </label>
 
           <label htmlFor="passsword">
-            <p>Passsword</p>
-            <input type="number" placeholder='Enter your password' />
+            <p>{props.lb3}</p>
+            <input type="text" placeholder={props.plc3} />
             <p className="valid">Hello ooo</p>
           </label>
 <div className="terms">
@@ -35,9 +35,10 @@ const SignandLog = (props) => {
   <p>{props.terms}</p>
 </div>
 
-<button>SignUp</button>
-
+<button>{props.log}</button>
+<Link to={"/loginpage"} className="hidden">Back to Login</Link>
 <footer>{props.footer}</footer>
+
         </div>
         
     </div>

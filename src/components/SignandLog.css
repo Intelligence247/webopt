@@ -22,7 +22,7 @@ label p:first-child{
 }
 
 .valid{
-    @apply mt-2 hidden
+    @apply mt-2 text-red-400 hidden
 }
 input{
     @apply w-full rounded-lg h-10 pl-2 focus:pl-3 focus:text-black focus:outline-[#b09d9d]

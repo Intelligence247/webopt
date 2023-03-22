@@ -15,9 +15,14 @@ const Loginpage = () => {
         <SignandLog
         title={"Wecome back"}
         desc={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia dolor esse tempore laudantium maiores necessitatibus est voluptatum nihil, vel, repellendus cupiditate perferendis consequuntur, veritatis totam voluptate? Sint nulla assumenda ipsam?"}
+        lb2={"Email address"}
+        lb3="Password"
+        plc2="Enter your email address"
+        plc3="Enter your password"
         withoogle={"Login with google"}
         terms={"Remember me"}
         footer={<>Don't have an accoutn yet? <Link to={"/signuppage"}>Create an account</Link></>}
+        log={"Login"}
         />
         </div>
         </div>

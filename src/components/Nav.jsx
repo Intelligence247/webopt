@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Nav.css"
 const Nav = (props) => {
   const [nav, setNav] = useState(true)
+  
   return (
     <div className='navWrapper'>
   <img src="/media/logo.png" alt="" />

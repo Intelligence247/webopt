@@ -24,8 +24,8 @@ main{
     @apply w-screen
 }
 ::-webkit-scrollbar{
-    @apply lg:bg-purple-300 lg:w-[8px]
+    @apply lg:bg-[#a171ff] lg:w-[8px]
 }
 ::-webkit-scrollbar-thumb{
-    @apply lg:bg-purple-700 lg:rounded-full 
+    @apply lg:bg-purple-900 lg:rounded-full 
 }

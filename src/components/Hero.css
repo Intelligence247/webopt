@@ -8,5 +8,5 @@
    @apply lg:text-[1.2rem] text-sm font-[300] lg:w-[45rem] mt-8 lg:leading-8 leading-6 px-4
 }
 .wraperhero button{
-    @apply w-max m-auto block bg-primary opacity-[0.8] py-[0.5rem] px-[2rem] rounded-xl mt-8
+    @apply w-max m-auto block bg-primary opacity-[0.8] rounded-lg px-[2rem] py-[0.5rem]  mt-8
 }
