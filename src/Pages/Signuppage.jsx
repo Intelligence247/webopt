@@ -23,7 +23,7 @@ const Signuppage = () => {
         withoogle={"Sign up with google"}
         terms={<>I agree to the <strong>Terms</strong> and <strong>Conditons</strong></>}
         footer={<>Already have an account? <Link to={"/Loginpage"}>Login</Link></>}
-        log={"SignUp"}
+        log={"Sign Up"}
         />
         </div>
         </div>

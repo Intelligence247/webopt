@@ -10,6 +10,7 @@ const Hero = () => {
         you achieve your goals and grow your business
       </p>
       <button>Get Started</button>
+
     </div>
   );
 };
