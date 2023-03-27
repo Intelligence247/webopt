@@ -37,7 +37,7 @@ input#checkbox{
     @apply w-4 h-4 border-[red] border-[2px]
 }
 .signandLogW button{
-    @apply bg-[#8e55ff] w-full h-10 rounded-lg
+    @apply bg-primary w-full h-10 rounded-lg
 }
 .signandLogW a{
     @apply text-[#a171ff] 

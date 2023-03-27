@@ -4,7 +4,7 @@ import "./SignandLog.css"
 const SignandLog = (props) => {
   return (
     <div className='signandLogW'>
-        <img src="/media/unsplash.png" alt="" />
+        <img src="/media/Rectangle50.png" alt="" />
 
         <div className="userinfo">
           <h1>{props.title} <img src="/media/bye.png" alt="" /></h1>

@@ -1,0 +1,18 @@
+.successW{
+    @apply text-[aliceblue] bg-[#1c1b1b] gap-x-[5rem] grid lg:px-[10rem] px-[2rem] py-12 place-items-center grid-cols-2 h-full w-full 
+}
+
+.successW > img{
+    @apply h-full lg:block hidden
+}
+
+.successW .mark{
+    @apply flex justify-center items-center flex-col gap-6 lg:col-span-1 col-span-2
+}
+.successW h1{
+    @apply w-max m-auto text-[2rem] font-[800]
+}
+
+.successW button{
+    @apply  flex justify-center items-center rounded-lg bg-primary w-full h-10 
+}
