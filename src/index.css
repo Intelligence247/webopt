@@ -9,11 +9,11 @@
 @tailwind utilities;
 
 *{
-@apply p-0 m-0 box-border font-[raleway] text-base scroll-smooth
+@apply p-0 m-0 box-border font-[raleway] lg:text-base text-sm scroll-smooth
 }
 
 #body{
-    grid-template-rows: 4rem 1fr;
+    grid-template-rows: 5rem 1fr;
     @apply grid h-screen w-screen
 }
 main{
