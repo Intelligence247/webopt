@@ -4,7 +4,7 @@ import "./Forgetpassword.css"
 const Forgetpassword = () => {
   return (
     <div className='forgetW'>
-       <img src="/media/unsplash.png" alt="" />
+       <img src="/media/Rectangle50.png" alt="" />
 
        <div className="forget">
 
