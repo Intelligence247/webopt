@@ -3,6 +3,8 @@ import Homepage from "./Pages/Homepage";
 import Signuppage from "./Pages/Signuppage";
 import Loginpage from "./Pages/Loginpage";
 import Notfound from "./Pages/Notfound";
+import Forgetpassword from "./Pages/Forgetpassword";
+import Setnewpassword from "./Pages/Setnewpassword";
 function App() {
   const routes = createBrowserRouter([
     {
@@ -17,6 +19,14 @@ function App() {
       path:"/loginpage",
       element:<Loginpage/>,
     },
+    {
+      path:"/forgetpassword",
+      element:<Forgetpassword/>,
+    },
+    {
+      path:"/setnewpassword",
+      element:<Setnewpassword/>
+     },
     {
       path:"*",
       element:<Notfound/>
