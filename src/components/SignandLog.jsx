@@ -4,15 +4,15 @@ import "./SignandLog.css"
 const SignandLog = (props) => {
   return (
     <div className='signandLogW'>
-        <img src="/media/unsplash.png" alt="" />
+        <img src="/media/Rectangle50.png" alt="" />
 
         <div className="userinfo">
           <h1>{props.title} <img src="/media/bye.png" alt="" /></h1>
           <p>{props.desc}</p>
 
           <div className="widthgoogle">
-            <img src="/media/google-logo.png" alt="" className='w-6 h-6' />
-            <p className='text-xl'>{props.withoogle}</p>
+            <img src="/media/google-logo.png" alt="" className='lg:w-6 lg:h-6 w-6 h-6' />
+            <p className=''>{props.withoogle}</p>
           </div>
           <label htmlFor="name">
             <p>{props.lb1}</p>

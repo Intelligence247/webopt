@@ -21,15 +21,14 @@ const Packages = () => {
         ))}
       </div>
 
-      <section>
+      <section className="flex  justify-center items-center">
         {activeTab === 0 ? <Basic /> : ""}
         {activeTab === 1 ? <Standards /> : ""}
         {activeTab == 2 ? <Premium /> : ""}
       </section>
 
       <div className="learn">
-        <a href="">Learn more</a> - Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Sint hej ejhjd
+        <a href="">Learn more</a> - About the this package
       </div>
     </div>
   );

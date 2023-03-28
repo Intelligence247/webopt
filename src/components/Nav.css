@@ -1,5 +1,5 @@
 .navWrapper{
-    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 
+    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 py-2
 }
 .navWrapper p, .navWrapper img{
     @apply cursor-pointer
@@ -9,7 +9,7 @@ span{
 }
 
 .navWrapper img{
-    @apply w-[8rem] pt-2
+    @apply w-[10rem]
 }
 .login,.signup{
     @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
@@ -28,7 +28,7 @@ span{
     @apply lg:block
 }
 .sign{
-    @apply flex gap-8 items-baseline w-full h-full lg:flex-row md:flex-row flex-col
+    @apply flex gap-8 items-baseline w-full h-full lg:flex-row md:flex-row flex-col text-gray-400 
 }
 .sign2{
     @apply lg:hidden

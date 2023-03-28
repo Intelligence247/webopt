@@ -5,6 +5,9 @@ import Loginpage from "./Pages/Loginpage";
 import Notfound from "./Pages/Notfound";
 import Forgetpassword from "./Pages/Forgetpassword";
 import Setnewpassword from "./Pages/Setnewpassword";
+import Successpage from "./Pages/Successpage";
+import Successcreatedpage from "./Pages/Successcreatedpage";
+import Checkmailpage from "./Pages/Checkmailpage";
 function App() {
   const routes = createBrowserRouter([
     {
@@ -26,6 +29,18 @@ function App() {
     {
       path:"/setnewpassword",
       element:<Setnewpassword/>
+     },
+     {
+      path:'/created',
+      element:<Successpage/>
+     },
+     {
+      path:'/changed',
+      element:<Successcreatedpage/>,
+     },
+     {
+      path:'/yourmail',
+      element:<Checkmailpage/>,
      },
     {
       path:"*",
