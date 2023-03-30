@@ -20,8 +20,8 @@
 .first p:last-child{
     @apply lg:text-base text-sm
 }
-.dot{
-    @apply lg:w-4 lg:h-4 w-4 h-2  bg-[#8e55ff] rounded-full block
+.first .dot{
+    @apply  lg:h-4 lg:w-4 h-2 w-2 bg-[#8e55ff] rounded-full block
 }
 
 .learn {
@@ -30,3 +30,5 @@
 .learn a {
     @apply text-[#8e55ff] 
 }
+
+/* https://youtu.be/qY13jWYKVWg */
