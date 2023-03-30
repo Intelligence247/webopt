@@ -13,7 +13,7 @@ const Ceo = (props) => {
             <img src="/media/sta.png" alt="" />
         
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, doloremque? Assumenda quisquam iste tempora architecto atque amet odit rerum quidem illum, veniam </p>
+            <p>{props.text}</p>
             <div className="bothname">
     <div className="name">
         <p>{props.name}</p>
