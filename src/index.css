@@ -13,13 +13,15 @@
 }
 
 #body{
-    grid-template-rows: 4rem 1fr;
-    @apply grid h-screen w-screen
+    grid-template-rows: 4.5rem 1fr;
+    @apply grid h-screen w-screen 
 }
 main{
     @apply overflow-y-auto w-screen
 }
-
+.asect{
+    @apply pt-2 
+}
 .asect, main{
     @apply w-screen
 }
