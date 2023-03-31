@@ -19,7 +19,9 @@
 main{
     @apply overflow-y-auto w-screen
 }
-
+.asect{
+    @apply pt-2 
+}
 .asect, main{
     @apply w-screen
 }
