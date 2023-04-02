@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="copy">
             <img src="/media/logo.png" alt="" />
-            <p>&copy; {date.getFullYear()} goldthesesigner. All rights reserved</p>
+            <p>&copy; {date.getFullYear()} WebOpt. All rights reserved</p>
         </div>
     </div>
   )

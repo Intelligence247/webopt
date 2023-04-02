@@ -24,5 +24,5 @@ hr{
     @apply hover:text-primary cursor-pointer
 }
 .eachF h1{
-    @apply text-[1.5rem] font-[600] hover:text-white
+    @apply text-[1.5rem] font-[700] hover:text-white
 }

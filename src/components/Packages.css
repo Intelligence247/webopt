@@ -2,7 +2,7 @@
     @apply lg:w-full px-8 bg-[#1b1b1b] text-white py-[5rem]
 }
 .packages h1{
-    @apply lg:text-[3rem] text-[2rem] text-center lg:mb-4 mb-8 font-bold
+    @apply lg:text-[3rem] text-[2rem] text-center lg:mb-4 mb-8 font-[700]
 }
 .level {
     @apply w-max m-auto mt-14 mb-4 font-bold

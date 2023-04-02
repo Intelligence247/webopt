@@ -3,7 +3,7 @@
     @apply pt-[3rem] pb-[5rem] w-full lg:px-0 px-8 transition-all ease-linear duration-[1s]
 }
 .FaqW h1{
-    @apply text-center lg:text-[3rem] text-[2.5rem] mb-4 leading-9
+    @apply text-center lg:text-[3rem] text-[2.5rem] mb-4 leading-9 font-[700]
 }
 .ev  {
     @apply  opacity-[0.7] text-center lg:text-[1.5rem] text-[1.2rem] mb-10
