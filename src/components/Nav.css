@@ -11,13 +11,13 @@ span{
 .navWrapper img{
     @apply lg:w-[9rem] w-[8rem]
 }
-.login,.signup{
+p.login,.signup{
     @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
 }
 .login{
     @apply  hover:border-primary
 }
-.signup{
+p.signup{
     @apply bg-primary text-white hover:bg-[#9978dc] 
 }
 .navWrapper p:not(.signup, .login){
