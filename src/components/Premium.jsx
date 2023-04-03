@@ -36,7 +36,7 @@ const Premium = () => {
       <div className="first">
         <b className="dot"></b>
         <p>
-          E-commerce website with advanced features such as inventory
+          E-commerce website with advanced features such as inventory<br/>
           management, shipping integration, and payment gateways
 
         </p>
@@ -44,7 +44,7 @@ const Premium = () => {
 
       <div className="first">
         <b className="dot"></b>
-        <p>Integrations with other marketing tools, such as social media and email marketing platforms.</p>
+        <p>Integrations with other marketing tools, such as social media<br/> and email marketing platforms.</p>
       </div>
 
       <div className="first">
