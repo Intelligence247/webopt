@@ -2,7 +2,7 @@
     @apply py-[5rem] lg:px-[5rem] px-[2rem] w-full 
 }
 .whatWrapper h1{
-    @apply lg:text-[3rem] text-[2.5rem] lg:w-[25rem] w-full text-center m-auto lg:leading-[3.5rem] leading-9 mb-14
+    @apply lg:text-[3rem] text-[2.5rem] lg:w-[25rem] w-full text-center m-auto lg:leading-[3.5rem] leading-9 mb-14 font-[700]
 }
 .ceoW img{
     @apply w-[12rem] rounded-xl h-[14rem]

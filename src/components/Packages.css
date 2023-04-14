@@ -2,26 +2,27 @@
     @apply lg:w-full px-8 bg-[#1b1b1b] text-white py-[5rem]
 }
 .packages h1{
-    @apply lg:text-[3rem] text-[2rem] text-center lg:mb-4 mb-8 font-bold
+    @apply lg:text-[3rem] text-[2rem] text-center lg:mb-4 mb-8 font-[700]
 }
 .level {
     @apply w-max m-auto mt-14 mb-4 font-bold
 }
  .level .tab{
-    @apply no-underline px-2 cursor-pointer
+    @apply no-underline px-2 cursor-pointer text-[1.3rem]
  }
  
 .active{
-    @apply border-b-[white] border-b-[2px] px-2 cursor-pointer
+    @apply border-b-[white] border-b-[2px] px-2 cursor-pointer text-[1.2rem]
 }
 .first{
-    @apply flex items-center justify-start lg:gap-10 space-x-6 my-4
+    @apply grid grid-cols-[2rem,1fr] mb-4
 }
+/* flex items-center justify-start lg:gap-10 space-x-6 my-4 */
 .first p:last-child{
-    @apply lg:text-base text-sm
+    @apply lg:text-base text-sm w-full
 }
 .first .dot{
-    @apply  lg:h-4 lg:w-4 h-2 w-2 bg-[#8e55ff] rounded-full block
+    @apply  lg:h-4 lg:w-4 h-2.5 w-2.5 bg-[#8e55ff] rounded-full block 
 }
 
 .learn {

@@ -22,7 +22,7 @@ const Steps = () => {
     <div className="Stepsw">
       <img src="/media/unsplash.png" className="stepimg" alt="" />
       <div className="visibility">
-        <h1>boost your online visibility in just a few steps</h1>
+        <h1>Boost your online visibility in just a few steps</h1>
 
         {stepObj.map((step, i) => (
           <Step1 key={i} title={step.title} desc={step.desc} />
