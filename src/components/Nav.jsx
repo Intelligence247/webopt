@@ -45,7 +45,6 @@ const Nav = (props) => {
       onClick={() => setNav(!nav)}
       ></div>
       <img
-
         src={`${nav ? "/media/showb.png" : "/media/closew.png"} `}
         className="burg"
         alt=""
