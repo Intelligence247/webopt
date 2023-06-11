@@ -23,3 +23,7 @@
 .featuresW .eachFeaturesW:nth-child(2) button{
     @apply bg-white
 }
+
+.featuresW .eachFeaturesW .naira{
+    @apply decoration-double line-through
+}

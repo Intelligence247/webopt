@@ -18,7 +18,7 @@ const EachFeatures = (props) => {
         <h1 className='text-[2rem] font-bold'>{props.title}</h1>
         <p>{props.desc}</p>
         </div>
-        <div className="price  flex items-center space-x-2"> <p className='text-[3.5rem]'>${props.price}</p> <span>/ Month</span></div>
+        <div className="price  flex items-center space-x-2"> <p className='text-[3.5rem] flex'><span className='naira text-[3.5rem]'>N</span> {props.price}</p> <span>/ Month</span></div>
         <button className='text-[#5F39AA] text-center w-full border-2 border-[#5F39AA] rounded-lg py-3 font-[600]'>Get Started Now</button>
 
         <div className="availableservices flex flex-col h-full justify-between"> 
@@ -27,8 +27,8 @@ const EachFeatures = (props) => {
                 <div className={`service1 ${i==0?props.valid:''} flex space-x-4  items-center justify-start`}
                 key={i}
                 >
-                <p className={`bg-[#E8EDFB] min-w-[2rem] h-8 rounded-full flex justify-center items-center ${i > 3 && i<=6 ? props.basicbg:i>6?props.standardbg:''}`}><img src={`${i > 3 && i<=6 ? props.basicimg: i>6?props.standardimg:props.validImg}`} alt="" /></p>
-                <p className={`${i>3 && i<=6?props.basicp:i>6?props.standardp:'text-'}`}>{each}</p>
+                <p className={`bg-[#E8EDFB] min-w-[2rem] h-8 rounded-full flex justify-center items-center ${i > 3 && i<=6 ? props.basicbg:i>6?props.standardbg:props.for_standard}`}><img src={`${i > 3 && i<=6 ? props.basicimg: i>6?props.standardimg:props.validImg}`} alt="" /></p>
+                <p className={`${i>3 && i<=6?props.basicp:i>6?props.standardp:''}`}>{each}</p>
             </div>
             ))
 

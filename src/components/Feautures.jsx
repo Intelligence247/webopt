@@ -33,7 +33,9 @@ const Feautures = () => {
     validImg={'/media/Shape.png'}
     basicimg={'/media/Shape.png'}
     standardimg={'/media/Shapex.png '}
-    standardbg={'bg-[#F7F8F9]'}
+    standardbg={'bg-white'}
+    basicbg={'bg-white'}
+    for_standard={'bg-[white]'}
     valid={'hidden'}
     />
     <EachFeatures
