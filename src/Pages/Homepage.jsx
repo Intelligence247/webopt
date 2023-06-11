@@ -6,6 +6,8 @@ import Steps from "../components/Steps";
 import WhatTodo from "../components/WhatTodo";
 import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
+import Feautures from '../components/Feautures';
+import Subscribe from '../components/Subscribe';
 
 const Homepage = () => {
     return (
@@ -17,9 +19,11 @@ const Homepage = () => {
           <main>
           <Hero/>
           <Steps/>
-          <Packages/>
+          {/* <Packages/> */}
+          <Feautures/>
           <WhatTodo/>
           <Faqs/>
+          <Subscribe/>
           <Footer/>
           </main>
         </div>
