@@ -21,13 +21,13 @@ const EachFeatures = (props) => {
         <div className="price  flex items-center space-x-2"> <p className='text-[3.5rem]'>${props.price}</p> <span>/ Month</span></div>
         <button className='text-[#5F39AA] text-center w-full border-2 border-[#5F39AA] rounded-lg py-3 font-[600]'>Get Started Now</button>
 
-        <div className="availableservices flex flex-col gap-[2rem]">
+        <div className="availableservices flex flex-col h-full justify-between"> 
             {
             EachFeaturesArr.map((each,i)=>(
-                <div className={`service1 ${i==0?props.valid:''} flex space-x-4  items-center`}
+                <div className={`service1 ${i==0?props.valid:''} flex space-x-4  items-center justify-start`}
                 key={i}
                 >
-                <p className={`bg-[#E8EDFB] min-w-[2rem] h-8 rounded-full flex justify-center items-center ${i>3 && i<=6 ? props.basicbg:i>6?props.standardbg:''}`}><img src={`${i > 3 && i<=6 ? props.basicimg: i>6?props.standardimg:props.validImg}`} alt="" /></p>
+                <p className={`bg-[#E8EDFB] min-w-[2rem] h-8 rounded-full flex justify-center items-center ${i > 3 && i<=6 ? props.basicbg:i>6?props.standardbg:''}`}><img src={`${i > 3 && i<=6 ? props.basicimg: i>6?props.standardimg:props.validImg}`} alt="" /></p>
                 <p className={`${i>3 && i<=6?props.basicp:i>6?props.standardp:'text-'}`}>{each}</p>
             </div>
             ))
