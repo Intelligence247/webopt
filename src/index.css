@@ -9,21 +9,21 @@
 @tailwind utilities;
 
 *{
-@apply p-0 m-0 box-border font-[raleway] lg:text-base text-sm scroll-smooth
+@apply p-0 m-0 box-border font-[raleway] lg:text-base text-sm scroll-smooth transition-all ease-linear duration-300
 }
 
 #body{
     grid-template-rows: 5rem 1fr;
-    @apply grid h-screen w-screen
+    @apply grid h-screen w-full
 }
 main{
-    @apply overflow-y-auto w-screen
+    @apply overflow-y-auto w-full overflow-x-hidden
 }
 .asect{
     @apply pt-2 
 }
 .asect, main{
-    @apply w-screen
+    @apply w-full
 }
 ::-webkit-scrollbar{
     @apply lg:bg-[#a171ff] lg:w-[8px]
