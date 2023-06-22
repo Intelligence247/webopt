@@ -1,0 +1,29 @@
+.featuresW{
+    @apply w-full py-20 flex flex-col gap-6
+}
+
+.featuresW h1{
+    @apply m-auto lg:w-[35rem] w-full
+}
+.featuresW > h1,.featuresW > h1 span{
+    @apply lg:text-[3rem] text-[2rem] font-[700] text-[#191D23] leading-[3.5rem] text-center
+}
+
+.featuresW > h1 span {
+    @apply text-[#7647D4] block
+}
+
+.featuresW .eachFeaturesW:nth-child(2){
+    background: #7647D5;
+    box-shadow: 0px 10px 25px #CCD9FF;
+    @apply text-white
+
+}
+
+.featuresW .eachFeaturesW:nth-child(2) button{
+    @apply bg-white
+}
+
+.featuresW .eachFeaturesW .naira{
+    @apply decoration-double line-through
+}

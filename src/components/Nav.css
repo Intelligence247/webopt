@@ -1,18 +1,18 @@
 .navWrapper{
-    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 py-2
+    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 
 }
 .navWrapper p, .navWrapper img{
-    @apply cursor-pointer
+    @apply cursor-pointer 
 }
 span{
-    @apply flex-grow-[1]
+    @apply flex-grow-[1] lg:block hidden
 }
 
 .navWrapper img{
-    @apply w-[10rem]
+    @apply lg:w-[9rem] w-[8rem]
 }
 .login,.signup{
-    @apply border-[1px] rounded-lg px-[2.5rem] py-[0.5rem] text-primary cursor-pointer
+    @apply border-[1px] rounded-lg lg:px-[2.5rem] px-[1.5rem] py-[0.5rem] text-primary cursor-pointer
 }
 .login{
     @apply  hover:border-primary
@@ -21,47 +21,29 @@ span{
     @apply bg-primary text-white hover:bg-[#9978dc] 
 }
 .navWrapper p:not(.signup, .login){
-    @apply hover:text-primary
+    @apply hover:text-primary lg:text-base text-[1.2rem]
 }
 
 .navWrapper p{
-    @apply lg:block
+    @apply lg:block lg:text-base text-[1.2rem]
 }
 .sign{
-    @apply flex gap-8 items-baseline w-full h-full lg:flex-row md:flex-row flex-col text-gray-400 
+    @apply flex gap-8 lg:relative fixed lg:h-full h-screen items-baseline lg:w-full w-[50vw] lg:pt-0 pt-[30%] transition-all ease-linear lg:flex-row flex-col text-gray-400 lg:pl-0 pl-8 duration-[.31s] lg:left-0 left-[50vw] lg:bg-transparent bg-pblack z-[1] top-0
 }
 .sign2{
-    @apply lg:hidden
+    @apply lg:hidden block fixed right-0 w-[100vw] bg-black top-0 opacity-20 h-screen
 }
 .navWrapper img:last-child{
-    @apply lg:hidden md:hidden
+    @apply lg:hidden block right-4 h-10 w-10 relative z-[2]
 }
-@media (max-width:640px) {
 
-   
-    .sign p{
-        @apply text-white 
-    }
-    span{
-        @apply hidden
-    }
-.sign{
-    @apply fixed h-screen left-[50vw] w-[50vw] bg-black flex gap-6 flex-col top-0 pl-8 pt-12 z-[1] transition-all ease-linear duration-[.31s]
-}
-.login,.signup{
-    @apply border-0 bg-black hover:bg-black p-0 hover:text-primary
+.sign p{
+    @apply lg:text-pblack text-white
 }
 .actnav{
-    @apply left-full
-}
-.navWrapper img:last-child{
-    @apply right-4 h-10 w-10 absolute z-[2] block transition-all ease-linear duration-[.31s]
-} 
-.sign2{
-    @apply  block fixed h-screen right-[0vw] w-[100vw] bg-black top-0  opacity-[0.2]
+    @apply lg:left-0 left-full
 }
 .actnav2{
     @apply hidden
 }
 
-}

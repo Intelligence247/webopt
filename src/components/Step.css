@@ -5,7 +5,7 @@
     @apply  lg:w-[48%] lg:h-[30rem] rounded-tr-[1rem] rounded-bl-[1rem] lg:mb-0 mb-8 
 }
 .Stepsw h1{
-    @apply lg:text-[2.5rem] text-[2rem] font-[600] lg:leading-[3.3rem] leading-8 w-full lg:text-start text-center
+    @apply lg:text-[2.5rem] text-[2rem] font-[700] lg:leading-[3.3rem] leading-8 w-full lg:text-start text-center 
 }
 .visibility{
     @apply lg:w-[48%] w-full flex flex-col gap-8 
