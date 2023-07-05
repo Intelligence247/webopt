@@ -1,12 +1,12 @@
 .wraperhero{
-    @apply bg-[#1b1b1b] lg:w-full lg:h-[30rem] py-[5rem] text-white 
+    @apply bg-[#1b1b1b] lg:w-full lg:h-[30rem] lg:py-[5rem] py-[3rem] text-white 
 }
 .wraperhero h1,.wraperhero p{
-    @apply  text-center lg:text-5xl text-[2.8rem] lg:w-[40rem] m-auto font-[700] leading-[3.5rem]
+    @apply  text-center lg:text-5xl text-[2rem] lg:w-[40rem] m-auto font-[700] lg:leading-[3.5rem] leading-[2rem]
 }
 .wraperhero p{
-   @apply lg:text-[1.2rem] text-sm font-[300] lg:w-[45rem] mt-8 lg:leading-8 leading-6 px-4
+   @apply lg:text-[1.2rem] text-sm font-[300] lg:w-[45rem] lg:mt-8 mt-6 lg:leading-8 leading-6 px-4
 }
 .wraperhero button{
-    @apply w-max m-auto block bg-primary opacity-[0.8] rounded-xl px-[4rem] py-[1rem]  mt-8 font-bold text-white
+    @apply w-max m-auto block bg-primary opacity-[0.8] rounded-xl px-[4rem] py-[1rem]  lg:mt-8 mt-6 font-bold text-white
 }

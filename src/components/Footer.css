@@ -3,26 +3,28 @@
  py-[3rem] flex flex-col gap-8
 }
 .footerTexts{
-    @apply flex justify-between lg:flex-row  flex-col lg:gap-0 space-y-8 pl-14
+    @apply flex justify-between lg:flex-row  flex-col lg:gap-0 lg:space-y-0 space-y-4 pl-14
 }
-hr{
-    @apply w-full
-}
-.copy{
-        @apply flex justify-between lg:items-center lg:flex-row flex-col gap-2 w-full lg:gap-0
-}
-.copy img{
-    @apply w-[10rem]
-}
-.copy p{
- @apply lg:text-base text-sm
-}
+
 .eachF{
-    @apply flex flex-col space-y-4
+    @apply flex flex-col lg:space-y-4 space-y-2 h-max
 }
 .eachF p, .eachF h1{
     @apply hover:text-primary cursor-pointer
 }
 .eachF h1{
     @apply text-[1.5rem] font-[700] hover:text-white
+}
+
+hr{
+    @apply w-full
+}
+.copy{
+        @apply flex justify-between items-center lg:flex-row  w-full lg:gap-0 flex-nowrap
+}
+.copy img{
+    @apply w-[5rem]
+}
+.copy p{
+ @apply lg:text-base text-[10px] w-max
 }

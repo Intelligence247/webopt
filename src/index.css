@@ -17,7 +17,7 @@
     @apply grid h-screen w-full
 }
 main{
-    @apply overflow-y-auto w-full overflow-x-hidden
+    @apply overflow-y-auto w-full overflow-x-hidden flex flex-col lg:space-y-[7rem] space-y-20
 }
 .asect{
     @apply pt-2 

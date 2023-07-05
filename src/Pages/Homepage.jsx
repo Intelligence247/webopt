@@ -12,7 +12,7 @@ import Subscribe from '../components/Subscribe';
 const Homepage = () => {
     return (
         <div id="body">
-          <section className="asect">
+          <section className="asect shadow-sm shadow-black z-10">
           <Nav
         package="#packages"/>
           </section>

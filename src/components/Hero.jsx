@@ -5,9 +5,7 @@ const Hero = () => {
     <div className="wraperhero">
       <h1>Maximize Your Business Potential With Web-Opt</h1>
       <p>
-        Empower Your Business with Our Easy-to-Use Website Builder Subheadline:
-        Create a Stunning Website in Minutes, Boost Your Online Presence and
-        Reach More Customers
+      Welcome to Web-Opt, where we help businesses like yours improve their online visibility and attract more customers. We're committed to helping you achieve your goals and grow your business.
       </p>
       <button>Get Started</button>
     </div>

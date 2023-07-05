@@ -1,14 +1,14 @@
 import React from 'react'
 
-const FooterC = (props) => {
+const FooterC = ({h,p1,p2,p3,p4,p5}) => {
   return (
     <div className='eachF'>
-        <h1>{props.h}</h1>
-        <p>{props.p1}</p>
-        <p>{props.p2}</p>
-        <p>{props.p3}</p>
-        <p>{props.p4}</p>
-        <p>{props.p5}</p>
+        <h1>{h}</h1>
+        <p>{p1}</p>
+        <p>{p2}</p>
+        <p>{p3}</p>
+        <p className={`${p4.length<1?'hidden':'block'}`}>{p4}</p>
+        <p className={`${p5.length<1?'hidden':'block'}`}>{p5}</p>
         
     </div>
   )

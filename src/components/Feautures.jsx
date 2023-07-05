@@ -7,7 +7,7 @@ const Feautures = () => {
     <div className='featuresW'>
         <h1 className=''>Powerful features for <span>your business needs</span>
 </h1>
-<p className='text-center mb-10'>{`Choose a plan that’s right for you`}</p>
+<p className='text-center lg:mb-8 mb-6'>{`Choose a plan that’s right for you`}</p>
 
 <div className="eachFeaturesW flex lg:flex-row flex-col items-center lg:w-max w-full m-auto lg:gap-2 gap-4 lg:px-0 px-3 ">
     <EachFeatures
