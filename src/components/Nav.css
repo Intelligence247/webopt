@@ -1,10 +1,10 @@
 .navWrapper{
-    @apply flex lg:px-[7rem] px-2 justify-between items-center gap-8 
+    @apply flex lg:px-[5rem] px-2 justify-between items-center gap-8
 }
 .navWrapper p, .navWrapper img{
     @apply cursor-pointer 
 }
-span{
+.navWrapper span{
     @apply flex-grow-[1] lg:block hidden
 }
 
@@ -28,7 +28,7 @@ span{
     @apply lg:block lg:text-base text-[1.2rem]
 }
 .sign{
-    @apply flex gap-8 lg:relative fixed lg:h-full h-screen items-baseline lg:w-full w-[50vw] lg:pt-0 pt-[30%] transition-all ease-linear lg:flex-row flex-col text-gray-400 lg:pl-0 pl-8 duration-[.31s] lg:left-0 left-[50vw] lg:bg-transparent bg-pblack z-[1] top-0
+    @apply flex lg:flex-row flex-col lg:items-baseline gap-8 lg:relative fixed lg:h-full h-screen items-baseline lg:w-full w-[70vw] lg:pt-0 pt-[30%] transition-all ease-linear text-gray-400 lg:pl-0 pl-8 duration-[.31s] lg:left-0 left-[30vw] lg:bg-transparent bg-pblack z-[1] top-0
 }
 .sign2{
     @apply lg:hidden block fixed right-0 w-[100vw] bg-black top-0 opacity-20 h-screen

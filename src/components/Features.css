@@ -1,16 +1,16 @@
 .featuresW{
-    @apply w-full py-20 flex flex-col gap-6
+    @apply w-full flex flex-col gap-6
 }
 
 .featuresW h1{
     @apply m-auto lg:w-[35rem] w-full
 }
 .featuresW > h1,.featuresW > h1 span{
-    @apply lg:text-[3rem] text-[2rem] font-[700] text-[#191D23] leading-[3.5rem] text-center
+    @apply lg:text-[3.5rem] text-[2rem] font-[700] text-[#191D23] leading-[3.5rem] text-center
 }
 
 .featuresW > h1 span {
-    @apply text-[#7647D4] block
+    @apply text-[#7647D4] block lg:leading-[3.5rem] leading-3
 }
 
 .featuresW .eachFeaturesW:nth-child(2){
