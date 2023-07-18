@@ -1,9 +1,9 @@
 .FaqW{
     transition: all 3s linear;
-    @apply pt-[3rem] w-full lg:px-0 px-8 transition-all ease-linear duration-[1s]
+    @apply w-full lg:px-0 px-8 transition-all ease-linear duration-[1s]
 }
 .FaqW h1{
-    @apply text-center lg:text-[3rem] text-[2.5rem] mb-4 leading-9 font-[700]
+    @apply text-center lg:text-[3.5rem] text-[2rem] mb-8 lg:leading-[3.5rem] leading-8 font-[700]
 }
 .ev  {
     @apply  opacity-[0.7] text-center lg:text-[1.5rem] text-[1.2rem] mb-10
@@ -19,7 +19,6 @@
     @apply font-[600] cursor-pointer flex justify-between text-[1.5rem] pb-1
 }
 .lessmore{
-   
     @apply border-primary border-[2px] h-6 w-6 min-w-[1.5rem] rounded-full flex justify-center items-center text-primary transition-all ease-linear duration-[.3s]
 }
 .QuesW{
